@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {count, length} from './number.js';
 
 const number = 5;
 const flag = false;
@@ -30,6 +31,8 @@ function App() {
         <p>
          Тернарный вывод: {flag ? 'Flag is true' :  'Flag is false'}
         </p>
+		
+		<p>count*length={count*length}</p>
 		
         <a
           className="App-link"
