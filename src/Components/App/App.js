@@ -7,13 +7,16 @@ import styles from'./App.module.css';
 const App = () => {
   const items = [
 	{
-		value: 'Доделать и сдать урок'
+		value: 'Доделать и сдать урок',
+		isDone: true
 	},
 	{
-		value: 'Прочитаь кучу книг'
+		value: 'Прочитаь кучу книг',
+		isDone: false
 	},
 	{
-		value: 'Сделать еще что-нибудь'
+		value: 'Сделать еще что-нибудь',
+		isDone: true
 	}
 	];
 
